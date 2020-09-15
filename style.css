@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+}
+.article {
+  background-image: url(img/img1.jpg);
+  height: 700px;
+  background-size: cover;
+  text-align: center;
+}
+.article h1 {
+  color: rgb(222, 214, 233);
+  font-size: 70px;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.article h3 {
+  color: rgb(245, 173, 209);
+  font-size: 30px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+.bouton {
+font-weight: bold;
+padding: 10px;
+border-radius: 10px;
+cursor: pointer;
+}
+
+
+#image {
+  margin-right: 0;
+  display: flex;
+  align-items: center;
+}
+header {
+  height: 40px;
+  top: 0px;
+  background-color: rgb(108, 114, 124);
+
+  background-position: bottom;
+  text-align: center;
+  word-spacing: 80px;
+
+  position: fixed;
+  width: 100%;
+}
+.menu {
+  color: white;
+  font-weight: bold;
+  top: 40px;
+}
+body {
+  margin: 0px;
+  height: 100%;
+}
+main {
+  background-color: rgb(210, 230, 247);
+  margin-top: 40px;
+}
+.button {
+  padding: 10px 15px;
+  margin-left: 100px;
+  border-radius: 8px;
+  box-shadow: 5px 1px 10px 3px rgb(0, 0, 10);
+  cursor: pointer;
+  
+}
+button:hover {
+  font-weight: bolder;
+}
+input {
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px 0px 10px 10px;
+}
+.input {
+  padding: 30px;
+}
+#video {
+  margin: 50px 0px 50px 30px;
+}
+footer {
+  background-color: rgb(71, 69, 82);
+  padding: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: blanchedalmond;
+}
+.description{
+  display: inline;
+  padding-left: 30px;
+  padding-right: 30px ;
+  text-align: justify;
+  text-justify: inter-word;
+  line-height: 2.5;
+
+}
